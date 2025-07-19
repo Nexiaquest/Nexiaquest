@@ -1,2 +1,12 @@
-import React from "react";
-export default function AboutUs() { return (<div>About Us Page</div>); }
+import React from 'react';
+import About from "/src/components/about";
+
+const AboutUs = () => {
+  return (
+    <div >
+      <About />
+    </div>
+  );
+};
+
+export default AboutUs;

@@ -7,10 +7,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ['Poppins', 'sans-serif'],
+        gellix: ['Gellix', 'system-ui', 'sans-serif'],
       },
+    },
   },
-},
  plugins: [
   require('tailwind-scrollbar-hide')  // Install via: npm i -D tailwind-scrollbar-hide
 ],

@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-
+import Footer from './components/Footer';
 import Home from './components/pages/Home';
 import AboutUs from './components/pages/AboutUs';
 import Careers from './components/pages/Careers';
@@ -35,6 +35,7 @@ function App() {
           <Route path="/architecture-&-interior-services" element={<ArchitectureInterior />} />
         </Routes>
       </div>
+        <Footer />
     </Router>
   );
 }

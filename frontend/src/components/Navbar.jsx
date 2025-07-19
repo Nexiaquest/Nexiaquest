@@ -29,25 +29,25 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className="shadow-md w-full font-poppins">
+<div className="shadow-md w-full font-gellix">
       <div className="bg-white text-sm px-6 py-2 flex justify-between items-center border-b">
         <div className="text-gray-600 flex items-center gap-6 text-sm pl-4">
   <span className="flex items-center gap-2">
-    <FaMapMarkerAlt className="text-blue-700" /> Thane, India
+    <FaMapMarkerAlt className="text-blue-900" /> Thane, India
   </span>
   <span className="flex items-center gap-2">
-    <FaPhoneAlt className="text-blue-700" /> 9529412675
+    <FaPhoneAlt className="text-blue-900" /> 9529412675
   </span>
 </div>
 
-        <div className="flex gap-5 text-blue-700 pr-10">
+        <div className="flex gap-5 text-blue-900 pr-10">
           <a href="#"><FaInstagram /></a>
           <a href="#"><FaLinkedinIn /></a>
           <a href="#"><FaFacebookF /></a>
         </div>
       </div>
 
-      <div className="bg-blue-800 text-white text-sm font-medium py-2">
+      <div className="bg-[#000048] text-white text-sm font-medium py-2">
        <marquee behavior="scroll" direction="left" scrollamount="6">
   {services.map((service, idx) => (
     <span key={`1-${idx}`} className="mx-4">• {service}</span>

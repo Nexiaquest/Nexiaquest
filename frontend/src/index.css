@@ -10,3 +10,32 @@
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@layer utilities {
+  .animate-scroll {
+    animation: scroll 40s linear infinite;
+  }
+}
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
+.animate-scroll:hover {
+  animation-play-state: paused;
+}
